@@ -1,6 +1,6 @@
 # Google Summer of Code 2024
 
-**Organization:** [Integrated Ocean Observing System (IOOS)](https://summerofcode.withgoogle.com/programs/2022/organizations/ioos)  
+**Organization:** [Integrated Ocean Observing System (IOOS)](https://summerofcode.withgoogle.com/programs/2024/organizations/ioos)  
 **Contributor:** [Anurag Nayak](https://github.com/Anu-Ra-g)  
 **Mentors:** [Martin Durant](https://github.com/martindurant)
 
@@ -22,5 +22,5 @@ The module works in a three step process as mentioned by David:
 
 ### Development Process. 
 
-Before starting to code, I learnt the necessary tools and packages required for this project. This primarily includes [`kerchunk`](https://fsspec.github.io/kerchunk/), [`zarr`](https://zarr.readthedocs.io/en/stable/), [`xarray`](https://docs.xarray.dev/en/stable/), [`fsspec`](https://filesystem-spec.readthedocs.io/en/latest/), [`xarray-datatree`](https://xarray-datatree.readthedocs.io/en/latest/) and [`pandas`](https://pandas.pydata.org/). Following this [video](https://www.youtube.com/watch?v=V0Xx0E8cs7U&t=655s) will give you a basic idea of what we're trying to deal in this project. 
+Before starting to code, I learnt the necessary tools and packages required for this project. This primarily includes [`kerchunk`](https://fsspec.github.io/kerchunk/), [`zarr`](https://zarr.readthedocs.io/en/stable/), [`xarray`](https://docs.xarray.dev/en/stable/), [`fsspec`](https://filesystem-spec.readthedocs.io/en/latest/), [`xarray-datatree`](https://xarray-datatree.readthedocs.io/en/latest/) and [`pandas`](https://pandas.pydata.org/). Following this [video](https://www.youtube.com/watch?v=V0Xx0E8cs7U&t=655s) will give you a basic idea of what we're trying to deal with in this project. 
 

@@ -14,7 +14,7 @@ The main aim of the project was to move the production code developed at **Camus
 
 The workflow presented by this module significantly accelerates the process of handling GRIB files, which Kerchunk was originally designed for, reducing it to a fraction of the time. It was developed by [David Stuebe](https://github.com/emfdavid) as mentioned [here](https://github.com/asascience-open/nextgen-dmac/pull/57). 
 
-The module works in a three step process as mentioned by David:
+The module works in a three step process as mentioned:
 
 1. Extract and persist metadata directly from a few arbitrary grib files for a given product such as HRRR SUBH
 2. Use the metadata mapping to build an index table of every grib message from the idx text files
@@ -22,5 +22,5 @@ The module works in a three step process as mentioned by David:
 
 ### Development Process. 
 
-Before starting to code, I learnt the necessary tools and packages required for this project. This primarily includes [`kerchunk`](https://fsspec.github.io/kerchunk/), [`zarr`](https://zarr.readthedocs.io/en/stable/), [`xarray`](https://docs.xarray.dev/en/stable/), [`fsspec`](https://filesystem-spec.readthedocs.io/en/latest/), [`xarray-datatree`](https://xarray-datatree.readthedocs.io/en/latest/) and [`pandas`](https://pandas.pydata.org/). Following this [video](https://www.youtube.com/watch?v=V0Xx0E8cs7U&t=655s) will give you a basic idea of what we're trying to deal with in this project. 
+Before starting to code, I learnt the necessary tools and packages required for this project. This primarily includes [`kerchunk`](https://fsspec.github.io/kerchunk/), [`zarr`](https://zarr.readthedocs.io/en/stable/), [`xarray`](https://docs.xarray.dev/en/stable/), [`fsspec`](https://filesystem-spec.readthedocs.io/en/latest/), [`xarray-datatree`](https://xarray-datatree.readthedocs.io/en/latest/) and [`pandas`](https://pandas.pydata.org/). Following this [video](https://www.youtube.com/watch?v=V0Xx0E8cs7U&t=655s) will give you a basic idea of what we're trying to deal with in this project. Apart from moving the functions from the module. 
 
